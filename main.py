@@ -17,9 +17,9 @@ FONT = pygame.font.SysFont("comicsans", 16)
 class Planet:
 	AU = 149.6e6 * 1000
 	G = 6.67428e-11
-	SCALE = 250 / AU  # 1AU = 100 pixels
-	TIMESTEP = 3600*24 # 1 day
-
+	SCALE = 250 / AU
+	TIMESTEP = 3600*24
+	
 	def __init__(self, x, y, radius, color, mass):
 		self.x = x
 		self.y = y
